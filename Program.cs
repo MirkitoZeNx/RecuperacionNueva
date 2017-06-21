@@ -13,6 +13,7 @@ namespace Git_Ex1
         [STAThread]
         static void Main()
         {
+            Protected Overridable Property DoubleBuffered As Boolean(true);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
